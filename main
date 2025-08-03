@@ -5340,4 +5340,5 @@ local config_holder
         cfg.labels.uid = self:label({name = "User Id: ??"})
 
         return setmetatable(cfg, library)
-    end 
+    end
+return library
